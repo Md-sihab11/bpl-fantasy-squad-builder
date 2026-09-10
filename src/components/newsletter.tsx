@@ -4,10 +4,9 @@ const Newsletter = () => {
     return (
       <div className="container mx-auto px-4 relative z-20 -mb-28 pt-25">
             
-            {/* 1. Outer Translucent Layer (বাহিরের হালকা গ্লাস লেয়ারটি) */}
+            
             <div className="p-6 rounded-3xl border-2 border-white bg-white/15 backdrop-blur-md max-w-5xl mx-auto">
-                
-                {/* 2. Inner Main Content Box (ভেতরের মূল কার্ডটি) */}
+              
                 <div className="bg-gradient-to-r from-blue-100 via-white to-amber-100 p-8 md:p-12 rounded-2xl shadow-xl text-center">
                     
                     <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900 mb-2">

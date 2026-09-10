@@ -1,80 +1,66 @@
-<<<<<<< HEAD
-# bpl-fantasy-squad-builder
-A responsive BPL Fantasy League Squad Builder React application built with TypeScript, React Hooks, and Tailwind CSS. Features real-time coin management, player selection logic, and interactive UI alerts.
-=======
-# React + TypeScript + Vite
+# 🏏 BPL Dream Eleven - Fantasy Squad Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive fantasy cricket squad selection web application for the Bangladesh Premier League (BPL). Built with **React 19**, **TypeScript**, and **Tailwind CSS**, this platform allows users to manage a virtual budget, select players dynamically, and assemble their ultimate dream team.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+[Click here to view Live Site](https://your-project-link.vercel.app) *(Replace with your actual Vercel/Netlify link)*
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🎯 Key Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Dynamic Budget Management:** Real-time coin deduction upon buying a player and automatic tracking of remaining funds.
+- **Conditional Player Selection:** Seamless tab switching between 'Available Players' and 'Selected Squad' without losing selection state.
+- **Interactive UI Notifications:** Integrated toast alerts using `React-Toastify` for budget validation and selection status.
+- **Async Data Fetching:** Efficient data fetching and state handling for player details.
+- **Type-Safe Development:** Fully typed components, props, and interfaces using TypeScript.
+- **Responsive & Modern Design:** Modern layout featuring glassmorphism elements, custom overlay cards, and Tailwind CSS styling.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🛠️ Tech Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- **Frontend Framework:** React 19, TypeScript
+- **Styling & UI:** Tailwind CSS, DaisyUI
+- **Icons & Alerts:** React Icons (`react-icons/fa6`), React-Toastify
+- **Build Tool:** Vite
 
-```
+---
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+## 📁 Project Structure
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
->>>>>>> fcabd1c (feat: initial commit for BPL Dream 11 project)
+```text
+BPL-Dream/
+├── public/
+│   ├── data.json
+│   ├── favicon.svg
+│   └── icons.svg
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── players/
+│   │   │   ├── availablePlayers.tsx
+│   │   │   ├── playerCard.tsx
+│   │   │   ├── players.tsx
+│   │   │   ├── selectedPlayerCard.tsx
+│   │   │   └── selectedPlayers.tsx
+│   │   ├── banner.tsx
+│   │   ├── footer.tsx
+│   │   ├── navbar.tsx
+│   │   └── newsletter.tsx
+│   ├── Types/
+│   │   └── playerType.ts
+│   ├── App.css
+│   ├── App.tsx
+│   ├── index.css
+│   └── main.tsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── README.md
+├── tsconfig.json
+└── vite.config.ts

@@ -1,5 +1,5 @@
 import React from 'react';
-import footerLogo from '../assets/logo-footer.png'; // তোমার ফুটার লোগোর পাথ
+import footerLogo from '../assets/logo-footer.png'; 
 
 const Footer = () => {
     return (
