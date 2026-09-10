@@ -1,0 +1,85 @@
+
+[
+  {
+    "PlayerName": "Shakib Al Hasan",
+    "PlayerImg": "https://img.wprost.pl/img/cristiano-ronaldo-pilkarz-manchesteru-united/ac/a6/f0c159da153e5a5095c80cea7594.jpeg",
+    "Origin": "Bangladesh",
+    "PlayerType": "All-Rounder",
+    "BowlingStyle": "Left-arm Orthodox",
+    "BattingStyle": "Left-hand Bat",
+    "Price": 7500000
+  },
+  {
+    "PlayerName": "Mustafizur Rahman",
+    "PlayerImg": "https://img.wprost.pl/img/cristiano-ronaldo-pilkarz-manchesteru-united/ac/a6/f0c159da153e5a5095c80cea7594.jpeg",
+    "Origin": "Bangladesh",
+    "PlayerType": "Bowler",
+    "BowlingStyle": "Left-arm Fast Medium",
+    "BattingStyle": "Left-hand Bat",
+    "Price": 6500000
+  },
+  {
+    "PlayerName": "Litton Das",
+    "PlayerImg": "https://img.wprost.pl/img/cristiano-ronaldo-pilkarz-manchesteru-united/ac/a6/f0c159da153e5a5095c80cea7594.jpeg",
+    "Origin": "Bangladesh",
+    "PlayerType": "Batsman",
+    "BowlingStyle": "Right-arm Off Break",
+    "BattingStyle": "Right-hand Bat",
+    "Price": 6000000
+  },
+  {
+    "PlayerName": "Taskin Ahmed",
+    "PlayerImg": "https://img.wprost.pl/img/cristiano-ronaldo-pilkarz-manchesteru-united/ac/a6/f0c159da153e5a5095c80cea7594.jpeg",
+    "Origin": "Bangladesh",
+    "PlayerType": "Bowler",
+    "BowlingStyle": "Right-arm Fast",
+    "BattingStyle": "Right-hand Bat",
+    "Price": 5500000
+  },
+  {
+    "PlayerName": "Mehidy Hasan Miraz",
+    "PlayerImg": "https://img.wprost.pl/img/cristiano-ronaldo-pilkarz-manchesteru-united/ac/a6/f0c159da153e5a5095c80cea7594.jpeg",
+    "Origin": "Bangladesh",
+    "PlayerType": "All-Rounder",
+    "BowlingStyle": "Right-arm Off Break",
+    "BattingStyle": "Right-hand Bat",
+    "Price": 5000000
+  },
+  {
+    "PlayerName": "Najmul Hossain Shanto",
+    "PlayerImg": "https://img.wprost.pl/img/cristiano-ronaldo-pilkarz-manchesteru-united/ac/a6/f0c159da153e5a5095c80cea7594.jpeg",
+    "Origin": "Bangladesh",
+    "PlayerType": "Batsman",
+    "BowlingStyle": "Right-arm Off Break",
+    "BattingStyle": "Left-hand Bat",
+    "Price": 4500000
+  },
+  {
+    "PlayerName": "Tanzid Hasan",
+    "PlayerImg": "https://img.wprost.pl/img/cristiano-ronaldo-pilkarz-manchesteru-united/ac/a6/f0c159da153e5a5095c80cea7594.jpeg",
+    "Origin": "Bangladesh",
+    "PlayerType": "Batsman",
+    "BowlingStyle": "Right-arm Medium",
+    "BattingStyle": "Left-hand Bat",
+    "Price": 3500000
+  },
+  {
+    "PlayerName": "Rishad Hossain",
+    "PlayerImg": "https://img.wprost.pl/img/cristiano-ronaldo-pilkarz-manchesteru-united/ac/a6/f0c159da153e5a5095c80cea7594.jpeg",
+    "Origin": "Bangladesh",
+    "PlayerType": "All-Rounder",
+    "BowlingStyle": "Right-arm Leg Break",
+    "BattingStyle": "Right-hand Bat",
+    "Price": 4000000
+  },
+    {
+    "PlayerName": "Rishad Hossain",
+    "PlayerImg": "https://img.wprost.pl/img/cristiano-ronaldo-pilkarz-manchesteru-united/ac/a6/f0c159da153e5a5095c80cea7594.jpeg",
+    "Origin": "Bangladesh",
+    "PlayerType": "All-Rounder",
+    "BowlingStyle": "Right-arm Leg Break",
+    "BattingStyle": "Right-hand Bat",
+    "Price": 4000000
+  }
+]
+
