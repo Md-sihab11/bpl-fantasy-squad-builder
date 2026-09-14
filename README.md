@@ -6,7 +6,7 @@ An interactive fantasy cricket squad selection web application for the Banglades
 
 ## 🚀 Live Demo
 
-[Click here to view Live Site](https://your-project-link.vercel.app) *(Replace with your actual Vercel/Netlify link)*
+[Bpl-Dream website-Live-link](https://bplbuilder.netlify.app/)
 
 ---
 
@@ -64,3 +64,13 @@ BPL-Dream/
 ├── README.md
 ├── tsconfig.json
 └── vite.config.ts
+```
+
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)
+![Vite](https://img.shields.io/badge/Vite-Latest-646CFF?logo=vite)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-06B6D4?logo=tailwindcss)
+![Netlify](https://img.shields.io/badge/Deployed-Netlify-00C7B7?logo=netlify)
+
+
+
