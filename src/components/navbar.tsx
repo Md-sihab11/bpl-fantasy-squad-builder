@@ -1,6 +1,5 @@
 // contrl+space chapsi then ash ce
 import logo from '../assets/logo.png'
-import React from 'react';
 import { BsCoin } from "react-icons/bs";
 
 const Navbar = ({coins}:{coins:number}) => {
