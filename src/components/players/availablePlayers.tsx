@@ -1,8 +1,4 @@
-// import React from 'react';
-// import type { Iplayer } from '../../Types/playerType';
-// import { FaUser } from 'react-icons/fa';
-// import { FaFlag } from "react-icons/fa6";
-// import Players from './players';
+
 import type { Iplayer } from '../../Types/playerType';
 import PlayerCard from './playerCard';
 
